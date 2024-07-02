@@ -247,12 +247,6 @@ wikifediversekr:
   sslname: 'wiki.fediverse.kr'
   ca: 'LetsEncrypt'
   disable_event: false
-wwwthemagicalworld:
-  url: 'www.themagical.world'
-  redirect: 'themagical.world'
-  sslname: 'themagical.world'
-  ca: 'LetsEncrypt'
-  disable_event: true
 simswikicom:
   url: 'thesimswiki.com'
   redirect: 'www.thesimswiki.com'
@@ -283,12 +277,6 @@ wwwrosettacodeorg:
   sslname: 'rosettacode.org'
   ca: 'LetsEncrypt'
   disable_event: true
-wwwdccomicswikicom:
-  url: 'www.dccomicswiki.com'
-  redirect: 'dccomicswiki.com'
-  sslname: 'dccomicswiki.com'
-  ca: 'LetsEncrypt'
-  disable_event: true
 wwwthegreatwaruk:
   url: 'www.thegreatwar.uk'
   redirect: 'thegreatwar.uk'
@@ -299,6 +287,11 @@ wwwrippaversewikicom:
   url: 'www.rippaversewiki.com'
   redirect: 'rippaversewiki.com'
   sslname: 'rippaversewiki.com'
+  ca: 'LetsEncrypt'
+wwwleborkinfopl:
+  url: 'www.lebork.info.pl'
+  redirect: 'lebork.info.pl'
+  sslname: 'lebork.info.pl'
   ca: 'LetsEncrypt'
 
 # *.miraheze.org/*.wikitide.org to wiki custom domains redirects
@@ -329,12 +322,6 @@ wtdcmultiversewiki:
 allthetropeswiki:
   url: 'allthetropes.miraheze.org'
   redirect: 'allthetropes.org'
-  sslname: 'wildcard.miraheze.org-2020-2'
-  ca: 'Sectigo'
-  disable_event: true
-pokemonwiki:
-  url: 'pokemon.miraheze.org'
-  redirect: 'pokemonwiki.info'
   sslname: 'wildcard.miraheze.org-2020-2'
   ca: 'Sectigo'
   disable_event: true
@@ -459,12 +446,6 @@ fanpediawiki:
   ca: 'Sectigo'
   hsts: 'strict'
   disable_event: true
-wikiyriorg:
-  url: 'wikiyri.org'
-  redirect: 'en.wikiyri.org'
-  sslname: 'wikiyri.org'
-  ca: 'LetsEncrypt'
-  disable_event: false
 wwwtintinpediafr:
   url: 'www.tintinpedia.fr'
   redirect: 'tintinpedia.fr'
@@ -522,6 +503,13 @@ removededmsongswiki:
 nintendowikiwiki_forcedredit:
   url: 'nintendo.miraheze.org'
   redirect: 'nintendowiki.wiki'
+  sslname: 'wildcard.miraheze.org-2020-2'
+  ca: 'Sectigo'
+  hsts: 'strict'
+  disable_event: true
+pizzatowerwiki:
+  url: 'pizzatower.miraheze.org'
+  redirect: 'pizzatower.wiki'
   sslname: 'wildcard.miraheze.org-2020-2'
   ca: 'Sectigo'
   hsts: 'strict'
